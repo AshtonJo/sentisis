@@ -58,7 +58,7 @@ function Foot() {
             </ul>
             <ul className="style_FooterList">
               <li className="style_FooterListTitle">Resource</li>
-              <li className="style_FooterItem">v-0.0</li>
+              <li className="style_FooterItem">v-0.1</li>
             </ul>
           </div>
         </div>
