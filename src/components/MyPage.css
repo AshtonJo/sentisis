@@ -1,0 +1,97 @@
+.style_MyAccount {
+  width: 100%;
+  min-height: 29.1rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.style_TabContainer {
+  padding: 0rem 2rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 15%) 0px 0.2rem 0.5rem 0px;
+}
+
+.style_TabContentContainer {
+  width: 100%;
+  max-width: 76.8rem;
+  margin: 0px auto;
+  padding: 6rem 1rem 8rem;
+  box-sizing: border-box;
+}
+
+.style_TabWrapper {
+  max-width: 120rem;
+  overflow-x: auto;
+  margin: auto;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.style_NavLink {
+  width: auto;
+  height: 5.6rem;
+  box-sizing: border-box;
+  color: rgb(84, 84, 86);
+  font-size: 1.6rem;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 0.2rem solid transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  white-space: nowrap;
+  cursor: pointer;
+  margin: 0rem 2rem;
+}
+
+.style_TabContentHead {
+  margin-bottom: 4rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.style_TabContentBody {
+  margin-bottom: 2rem;
+}
+
+.style_InfoRowContainer {
+  padding: 2.2rem 0rem;
+  border-bottom: 0.1rem solid rgb(231, 231, 233);
+}
+
+.stlye_InfoRow {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.style_KakaoBadge {
+  margin-left: 1rem;
+  padding: 0.2rem 0.4rem;
+  font-size: 1.1rem;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 0);
+  border-radius: 0.4rem;
+  cursor: default;
+}
+
+.style_LeaveButton {
+  text-decoration: underline;
+  font-size: 1.6rem;
+  color: rgb(255, 109, 110);
+  cursor: pointer;
+}
+
+.style_DescriptionRow {
+  margin-bottom: 0.5rem;
+}
+
+.style_ExternalLink {
+  color: rgb(81, 169, 243);
+  outline: none;
+  cursor: pointer;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  text-decoration: none;
+}

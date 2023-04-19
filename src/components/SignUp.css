@@ -1,0 +1,40 @@
+.style_JoinInput {
+  margin-top: 2rem;
+  max-width: none;
+}
+
+.style_JoinSolidButton {
+  margin-top: 5.5rem;
+  max-width: none;
+}
+
+.style_LoginLinkText {
+  margin-right: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.style_InfoTitle {
+  min-width: 18rem;
+  margin-bottom: 0rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.style_InfoContent {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.style_InfoDescription {
+  margin-top: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: rgb(134, 134, 136);
+}

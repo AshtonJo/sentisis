@@ -1,0 +1,20 @@
+.modal {
+  display: inline;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+
+  height: 20rem;
+}
+
+.style_ModalTabForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.style_OpBtn {
+  margin-left: 2rem;
+  margin-right: 1rem;
+}

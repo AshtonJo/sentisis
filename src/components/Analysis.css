@@ -1,0 +1,164 @@
+.style_AnContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(231, 232, 240);
+  width: 100vw;
+  height: 100vw;
+}
+
+.style_AnTopContainer {
+  box-sizing: border-box;
+  position: relative;
+  top: -70px;
+  left: 200px;
+  width: 900px;
+  height: 500px;
+
+  border: 1px solid rgb(231, 232, 240);
+  background-color: white;
+
+  margin: 50px;
+  padding: 15px 20px 20px 25px;
+}
+.style_AnTopContainer2 {
+  box-sizing: border-box;
+  position: relative;
+  top: -70px;
+  left: 200px;
+  width: 900px;
+  height: 1150px;
+
+  border: 1px solid rgb(231, 232, 240);
+  background-color: white;
+
+  margin: 50px;
+  padding: 20px 20px 20px 25px;
+}
+.style_day {
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+#매수h2 {
+  margin-left: 30px;
+  color: #ff5e5e;
+  font-size: 2rem;
+}
+#매도h2 {
+  margin-left: 30px;
+  color: #4f56ff;
+  font-size: 2rem;
+}
+#시작일h3 {
+  margin-left: 30px;
+  color: #000000;
+  font-size: 25px;
+  flex-wrap: nowrap;
+}
+
+#시작일input {
+  background-color: #ffffff;
+  border: solid 1rem #000000;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#마지막일h3 {
+  margin-top: 30px;
+  margin-left: 30px;
+  color: #000000;
+  font-size: 25px;
+  flex-wrap: nowrap;
+}
+
+#마지막일input {
+  background-color: #ffffff;
+  border: solid 1rem #000000;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#기준봉h3 {
+  margin-top: 30px;
+  margin-left: 30px;
+  color: #000000;
+  font-size: 25px;
+  flex-wrap: nowrap;
+}
+
+#기준봉input {
+  background-color: #ffffff;
+  border: solid 1rem #000000;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#조건h3 {
+  margin-top: 30px;
+  margin-left: 30px;
+  color: #000000;
+  font-size: 25px;
+  flex-wrap: nowrap;
+}
+
+.style_BuyConditionalContainer {
+  height: 13rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.style_BuyConditionalBox {
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  width: 17rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  border: solid 1px #000000;
+  background-color: #86c0f4;
+}
+
+.style_BuyConditionalBox > input {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 1rem;
+  border: solid 2px blue;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.style_SellConditionalContainer {
+  height: 13rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.style_SellConditionalBox {
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  width: 17rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  border: solid 1px #000000;
+  background-color: #86c0f4;
+}
+
+.style_SellConditionalBox > input {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 1rem;
+  border: solid 2px blue;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+#CSVh3 {
+  margin-top: 30px;
+  margin-left: 30px;
+  color: #000000;
+  font-size: 25px;
+  flex-wrap: nowrap;
+}

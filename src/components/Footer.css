@@ -1,10 +1,10 @@
 .style_Footer {
-  background-color: rgb(0, 0, 0);
+  background-color: #2039b9;
 }
 
 .style_IslandContainer {
   box-sizing: border-box;
-  max-width: 120rem;
+  max-width: auto;
   width: 100%;
   display: flex;
   flex: 1 0 auto;
@@ -19,8 +19,8 @@
   flex-direction: row;
   -webkit-box-pack: justify;
   justify-content: space-between;
-  background-color: rgb(0, 0, 0);
-  border-bottom: 0.1rem solid rgb(35, 35, 36);
+  background-color: #2039b9;
+  border-bottom: 0.1rem solid rgb(255 255 255);
   box-sizing: border-box;
 }
 
@@ -60,7 +60,7 @@
   box-sizing: border-box;
   font-size: 1.1rem;
   font-weight: 300;
-  color: rgb(174, 174, 176);
+  color: rgb(0, 191, 255);
   line-height: 1.8;
   display: flex;
   -webkit-box-pack: justify;
@@ -70,5 +70,5 @@
 .style_FooterBottomWrap {
   font-size: 1.1rem;
   font-weight: 300;
-  color: rgb(174, 174, 176);
+  color: rgb(0, 191, 255);
 }

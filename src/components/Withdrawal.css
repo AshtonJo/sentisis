@@ -1,0 +1,19 @@
+.style_Withdrawal_Container {
+  padding-bottom: 200px;
+}
+
+.style_Withdrawl_Checkbox::after {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    content: "";
+    display: block;
+    width: 13px;
+    height: 10px;
+    background: url(https://member.op.gg/icon_check_bl.10732f6d.svg) no-repeat 0 0;
+}
+
+
+.style_Withdrawl_Checkbox_checked::after {
+  background: url(https://member.op.gg/icon_check_wh.2b9a04cd.svg) no-repeat 0 0;
+}

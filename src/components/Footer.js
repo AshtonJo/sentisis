@@ -12,18 +12,13 @@ function Foot() {
             <ul className="style_FooterList">
               <li className="style_FooterListTitle">Service</li>
               <li className="style_FooterItem">
-                <a className="style_Link style_FooterLink" href="/service/today-expectaion">
-                  오늘의 예측
+                <a className="style_Link style_FooterLink" href="/service/analysis">
+                  분석하기
                 </a>
               </li>
               <li className="style_FooterItem">
-                <a className="style_Link style_FooterLink" href="/service/today-key-keyword">
-                  오늘 핵심 키워드
-                </a>
-              </li>
-              <li className="style_FooterItem">
-                <a className="style_Link style_FooterLink" href="/service/amount-of-writing">
-                  오늘 올라온 글 수
+                <a className="style_Link style_FooterLink" href="/service/allresult">
+                  분석결과모음
                 </a>
               </li>
             </ul>
@@ -64,9 +59,13 @@ function Foot() {
         </div>
       </footer>
 
-      <div className="style_IslandContainer">
+      <div className="style_IslandContainer" style={{ backgroundColor: "#2039b9" }}>
         <div className="style_FooterBottomContainer">
-          <div className="style_FooterBottomWrap">Sentisis &nbsp;|&nbsp; TUKOREA 6팀</div>
+          <div className="style_FooterBottomWrap" style={{ color: "white" }}>
+            SENTISIS | 2017150049@tukorea.ac.kr | 010-8211-6458 <br />
+            한국공학대학교 6팀 졸업작품 UI 입니다. <br />
+            Copyright 2023 .TUKOREA Team6 From Frequentool. All Rights Reserved.
+          </div>
         </div>
       </div>
     </React.Fragment>

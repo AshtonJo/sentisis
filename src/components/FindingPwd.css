@@ -1,0 +1,29 @@
+.style_ExplainMessage {
+  margin-top: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.style_WarningText {
+  padding: 0.2rem;
+  color: rgb(255, 55, 44);
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+.style_EmailInput {
+  margin-top: 2rem;
+  max-width: none;
+}
+
+.style_EmailSolidButton {
+  margin-top: 2rem;
+  max-width: none;
+}
+
+.style_LoginLinkBar {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.4rem;
+}

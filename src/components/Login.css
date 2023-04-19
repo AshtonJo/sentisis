@@ -1,0 +1,177 @@
+.style_MemberFormContainer {
+  height: 34.9rem;
+}
+
+.style_MemberFormWrapper {
+  min-height: 100rem;
+  height: 100%;
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background: radial-gradient(rgb(35, 35, 36), rgb(0, 0, 0));
+}
+
+.style_MemberForm {
+  width: 100%;
+  height: 100vh;
+  padding: 3rem 5rem;
+  max-width: 46rem;
+  max-height: 70rem;
+  text-align: center;
+  background-color: rgba(88, 88, 90, 0.27);
+  border-radius: 0.4rem;
+  box-shadow: rgb(0 0 0 / 12%) 0px 0.2rem 0.3rem 0px;
+  box-sizing: border-box;
+}
+
+.style_MemberLogo {
+  margin-top: 0.5rem;
+}
+
+.style_Title {
+  margin-top: 3rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.7rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.style_KakaoLoginButton {
+  width: 100%;
+  height: 5rem;
+  margin-top: 2rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.4rem;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.style_LineText {
+  margin: 1.6rem 0rem;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.style_Line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: rgb(206, 206, 209);
+}
+
+.style_Text {
+  padding: 0rem 4%;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgb(174, 174, 176);
+}
+
+.style_Input {
+  width: 100%;
+  height: 5rem;
+  padding: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  border: 0.1rem solid rgba(0, 0, 0, 0.6);
+  border-radius: 0.4rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: text;
+  box-sizing: border-box;
+  appearance: none;
+}
+
+.style_LoginInput {
+  margin-top: 2rem;
+  max-width: none;
+}
+
+.style_MiddleBar {
+  margin-top: 1.5rem;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 1.4rem;
+  color: rgb(255, 255, 255);
+}
+
+.style_InputSave {
+  margin-right: 0.4rem;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
+.style_SolidButton {
+  width: 100%;
+  height: 5rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  background-color: rgb(134, 134, 136);
+  color: rgb(255, 255, 255);
+  border: 0.1rem solid transparent;
+  border-radius: 0.4rem;
+  cursor: default;
+}
+
+.style_LoginSolidButton {
+  margin-top: 5.5rem;
+  max-width: none;
+}
+
+.style_InvitationBar {
+  margin-top: 1.4rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.style_CopyrightBar {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: row;
+  /* background-color: rgb(19, 19, 21); */
+  border-bottom: 0.1rem solid rgb(35, 35, 36);
+  box-sizing: border-box;
+  min-height: 6rem;
+  max-height: 12rem;
+}
+
+.style_InvitationText {
+  margin-right: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.style_MemberFormCopyright {
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.style_MemberFormCopyright > div {
+  height: 2rem;
+}
+
+.style_CopyrightText {
+  margin: 0px 1rem 0px 0px;
+  color: rgb(218, 218, 220);
+  font-size: 1.3rem;
+  text-align: center;
+}
